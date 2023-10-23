@@ -1,14 +1,14 @@
 import NavBar from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Routes from "./routes";
-import { BrowserRouter } from "react-router-dom";
+import "./App.scss";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <>
       <NavBar />
       <Routes />
-    </BrowserRouter>
+    </>
   );
 };
 
