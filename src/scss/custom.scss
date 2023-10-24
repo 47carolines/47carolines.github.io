@@ -1,6 +1,11 @@
-.homepage {
+.homepage, .header {
     font-family: 'Montagu Slab', serif;
 }
+
+.no-link-style {
+    text-decoration: none;
+    color: inherit;
+  }  
 
 .full-page-component {
     width: 100%;
