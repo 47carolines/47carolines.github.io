@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Header: React.FC = () => {
   return (
-    <Navbar fixed="top" expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container fluid>
         <Navbar.Brand href="/">Caroline Lewis</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -9,7 +9,7 @@ const App = () => {
     <>
       <div className="page_container">
         <Header />
-        <main className="content">
+        <main className="content d-flex justify-content-center align-items-center">
           <Routes />
         </main>
         <Footer />
