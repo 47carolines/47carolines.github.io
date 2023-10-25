@@ -1,13 +1,19 @@
-import NavBar from "./components/NavBar";
+import Header from "./components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Routes from "./routes";
 import "./App.scss";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <>
-      <NavBar />
-      <Routes />
+      <div className="page_container">
+        <Header />
+        <main className="content">
+          <Routes />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 };

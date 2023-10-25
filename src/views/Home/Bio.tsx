@@ -3,16 +3,14 @@ import { BiLinkExternal } from "react-icons/bi";
 
 const Bio = () => {
   return (
-    <>
-      <h3 className="header">About Me</h3>
+    <div className="mb-4">
       <p>
-        I have over 2 years of experience in software development and a true
+        Hello World! I have over 2 years of experience in software development and a true
         passion for writing clean and concise code. Currently employed as a
         software developer at Spirit of '76 Fireworks, I maintain and improve
-        our internal tools and our wholesale fireworks website. I specialize in
-        full-stack web development and work with up-to-date frameworks like
-        ReactJS and Laravel. Our team utilizes the Agile development approach
-        and works with modern DevOps tools like Docker, Jira, and Jenkins.
+        our internal tools and our wholesale fireworks website. As an entry
+        level-developer, I am eager to learn, adapt, and grow in the
+        ever-evolving world of software development.
       </p>
       <Link
         to="https://drive.google.com/file/d/1zxaWY8SogKzu_FYgUaEjfaFtLfSnmvIg/view"
@@ -20,7 +18,7 @@ const Bio = () => {
       >
         Resume (PDF) <BiLinkExternal />
       </Link>
-    </>
+    </div>
   );
 };
 
