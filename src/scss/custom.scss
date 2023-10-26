@@ -1,9 +1,9 @@
-.homepage {
+.heading {
   font-family: "Montagu Slab", serif;
 }
 
 .no-link-style {
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
 }
 
@@ -11,6 +11,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh !important;
+  justify-content: center; 
+  align-items: center; 
   margin: 0 auto;
 }
 

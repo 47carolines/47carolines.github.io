@@ -18,7 +18,7 @@ const Bio = () => {
         ever-evolving world of software development.
       </p>
       <Link
-        to="https://drive.google.com/file/d/1zxaWY8SogKzu_FYgUaEjfaFtLfSnmvIg/view"
+        to="//drive.google.com/file/d/1zxaWY8SogKzu_FYgUaEjfaFtLfSnmvIg/view"
         target="_blank"
       >
         Resume (PDF) <BiLinkExternal />

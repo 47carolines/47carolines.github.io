@@ -7,13 +7,11 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <div className="page_container">
-        <Header />
-        <main className="content d-flex justify-content-center align-items-center">
-          <Routes />
-        </main>
-        <Footer />
-      </div>
+      <Header />
+      <main className="content page_container">
+        <Routes />
+      </main>
+      <Footer />
     </>
   );
 };
