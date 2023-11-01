@@ -9,16 +9,15 @@ const Bio = () => {
         and a true passion for writing clean and concise code.{" "}
       </p>
       <p>
-        Currently employed as a software developer at Spirit of '76 Fireworks, I
-        maintain and improve our internal tools and our wholesale fireworks
-        website.
+        Currently employed as a software developer for a Midwestern wholesaler, I
+        maintain and improve our customer-facing wholesale websites. I also work on internal applications that are used by our warehouse team as well as our office staff.
       </p>
       <p>
-        As an entry level-developer, I am eager to learn, adapt, and grow in the
-        ever-evolving world of software development.
+        I am eager to learn, adapt, and grow in the
+        ever-evolving world of software development. Check out my resume and the rest of my portfolio site to learn more about me.
       </p>
       <Link
-        to="//drive.google.com/file/d/1zxaWY8SogKzu_FYgUaEjfaFtLfSnmvIg/view"
+        to="//drive.google.com/file/d/1VUxcZnLuACYdXY7IMMVtF-fXjv6X5EyB/view?usp=sharing"
         target="_blank"
       >
         Resume (PDF) <BiLinkExternal />

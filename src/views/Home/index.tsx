@@ -12,7 +12,7 @@ const Home = () => {
         <Col sm={6}>
           <h1 className="display-1 heading">Caroline</h1>
           <h1 className="display-1 heading">Lewis</h1>
-          <p className="lead">Entry Level Software Developer</p>
+          <p className="lead">Software Developer</p>
           <Bio />
         </Col>
       </Row>
